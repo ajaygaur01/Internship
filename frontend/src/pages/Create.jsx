@@ -70,7 +70,7 @@ const CreatePost = () => {
     formDataToSend.append("userId", userId); // ✅ Add userId
 
     try {
-      const res = await axios.post("http://localhost:8000/post/create", formDataToSend, {
+      const res = await axios.post("https://internship-angj.onrender.com/post/create", formDataToSend, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 

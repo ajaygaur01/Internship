@@ -23,7 +23,7 @@ const Register = () => {
     setError('');
 
     try {
-      const res = await axios.post('http://localhost:8000/auth/signup', formData);
+      const res = await axios.post('https://internship-angj.onrender.com/auth/signup', formData);
       localStorage.setItem('token', res.data.token);
       navigate('/home');
     } catch (err) {

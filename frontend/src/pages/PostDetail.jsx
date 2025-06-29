@@ -10,7 +10,7 @@ const PostDetail = () => {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        const response = await axios.get(`http://localhost:8000/post/${slug}`);
+        const response = await axios.get(`https://internship-angj.onrender.com/post/${slug}`);
         setPost(response.data);
       } catch (error) {
         console.error("Error fetching post details:", error);

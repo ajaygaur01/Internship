@@ -24,7 +24,7 @@ const Navbar = () => {
 
     const timeout = setTimeout(async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/look/search?query=${query}`);
+        const res = await axios.get(`https://internship-angj.onrender.com/look/search?query=${query}`);
         setSuggestions(res.data);
         setShowDropdown(true);
       } catch (err) {

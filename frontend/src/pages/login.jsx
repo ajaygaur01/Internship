@@ -23,7 +23,7 @@ const Login = () => {
     e.preventDefault();
     setError('');
     try {
-      const res = await axios.post('http://localhost:8000/api/auth/login', formData);
+      const res = await axios.post('https://internship-angj.onrender.com/api/auth/login', formData);
 
       localStorage.setItem('token', res.data.token); // save token if needed
       navigate('/home'); // redirect to homepage

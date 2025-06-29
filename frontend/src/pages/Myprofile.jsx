@@ -27,7 +27,7 @@ const UserPosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/post/user/${userId}`);
+        const res = await axios.get(`https://internship-angj.onrender.com/post/user/${userId}`);
         setPosts(res.data);
       } catch (err) {
         console.error("Failed to fetch posts:", err);
