@@ -1,6 +1,6 @@
 # 📝 Internship Blog Platform
 
-Live Demo: [https://internship-1-azmw.onrender.com](https://internship-1-azmw.onrender.com)
+Live Demo: [https://internship-seven-lilac.vercel.app/](https://internship-seven-lilac.vercel.app/)
 
 This is a **rapid prototype blog platform** built as a **takeaway assignment**. It allows writers to log in, create and preview articles, upload cover images, and publish content with a clean, responsive UI.
 
