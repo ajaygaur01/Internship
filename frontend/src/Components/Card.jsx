@@ -140,26 +140,26 @@ const Card = () => {
                                 </div>
 
                                 {/* Enhanced Action Bar - Fixed Position at Bottom */}
-                                <div className="px-8 pb-8 flex-shrink-0">
-                                    <div className="flex items-center justify-between p-6 bg-gradient-to-r from-slate-50/80 to-blue-50/80 backdrop-blur-sm rounded-2xl border border-white/50 shadow-inner">
+                                <div className="px-4 pb-4 flex-shrink-0">
+                                    <div className="flex items-center justify-between p-2 bg-gradient-to-r from-slate-50/80 to-blue-50/80 backdrop-blur-sm rounded-lg border border-white/50 shadow-inner">
                                         {/* Like Component */}
-                                        <div className="flex items-center space-x-4">
+                                        <div className="flex items-center space-x-2">
                                             <Like />
                                         </div>
 
                                         {/* Enhanced Read More Button */}
                                         <Link to={`/post/${c.slug}`} className="group/btn">
-                                            <button className="relative px-8 py-4 font-bold text-white bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-2xl hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 transform hover:scale-110 hover:rotate-1 transition-all duration-500 shadow-2xl hover:shadow-pink-500/50">
-                                                <span className="relative z-10 flex items-center space-x-3">
+                                            <button className="relative px-4 py-2 text-base font-semibold text-white bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-lg hover:from-purple-700 hover:via-pink-700 hover:to-orange-600 transform hover:scale-105 hover:rotate-1 transition-all duration-500 shadow-xl hover:shadow-pink-500/50">
+                                                <span className="relative z-10 flex items-center space-x-2">
                                                     <span>Read More</span>
-                                                    <svg className="w-5 h-5 group-hover/btn:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <svg className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                                                     </svg>
                                                 </span>
                                                 {/* Enhanced Button Shine Effect */}
-                                                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-1000"></div>
+                                                <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 -translate-x-full group-hover/btn:translate-x-full transition-transform duration-1000"></div>
                                                 {/* Button Glow */}
-                                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-2xl blur opacity-30 group-hover/btn:opacity-60 transition-opacity duration-300"></div>
+                                                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-lg blur opacity-30 group-hover/btn:opacity-60 transition-opacity duration-300"></div>
                                             </button>
                                         </Link>
                                     </div>
